@@ -9,9 +9,11 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border: none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: none;
     transition: .2s linear;
@@ -50,6 +52,7 @@ body {
     background: var(--main-color);
     cursor: pointer;
 }
+
 .btn:hover {
     letter-spacing: .2rem;
 }
@@ -138,7 +141,8 @@ body {
 
 .header .cart-items-container {
     position: absolute;
-    top: 100%; right: -100%;
+    top: 100%;
+    right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
@@ -156,4 +160,63 @@ body {
 .header .cart-items-container .btn {
     width: 100%;
     text-align: center;
+}
+
+.products .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+
+.products .box-container .box .icons a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+    margin: .3rem;
+}
+
+.products .box-container .box .icons a:hover {
+    background: var(--main-color);
+}
+
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
+
+.products .box-container .image img {
+    height: 25rem;
+}
+
+.products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .stars {
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+
+.products .box-container .box .content .price {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
 }
