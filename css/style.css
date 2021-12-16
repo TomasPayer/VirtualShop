@@ -30,6 +30,10 @@ body {
 .nav-link:hover {
   color: var(--mainBlack);
 }
+
+.navbar img {
+    font-size: 2rem;
+}
 /* end of nav links */
 /* info icons */
 .cart-info__icon {
