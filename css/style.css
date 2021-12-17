@@ -23,7 +23,7 @@ body {
   color: var(--mainPink);
 }
 .nav-link {
-  color: var(--mainPink);
+  color: black;
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
@@ -70,7 +70,7 @@ body {
   margin-top: -4rem;
 }
 .banner-title {
-  color: var(--mainPink);
+  color: black;
   font-size: 4rem;
 }
 .banner-link {
@@ -79,14 +79,14 @@ body {
   border: 0.2rem solid var(--mainBlack);
 }
 .banner-link:hover {
-  background: var(--mainBlack);
-  color: var(--mainPink);
+  background: white;
+  color: black;
 }
 /* endo of banner */
 /* cart  */
 .cart {
   position: absolute;
-  min-height: 10rem;
+  min-height: 15rem;
   background: var(--mainWhite);
   top: 0;
   right: 0;
@@ -96,12 +96,12 @@ body {
   overflow: hidden;
 }
 .show-cart {
-  width: 18rem;
+  width: 20rem;
   padding: 2rem 1.5rem;
   transform: rotateY(-360deg);
 }
 .cart-item {
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 /* end of cart */
