@@ -47,24 +47,24 @@ height: 10rem;
 /* end of nav links */
 /* info icons */
 .cart-info__icon {
-  color: var(--mainBlack);
+  color: white;
   cursor: pointer;
 }
 
 .cart-info {
-  border: 0.1rem solid var(--mainBlack);
-  color: var(--mainBlack);
+  border: 0.1rem solid white;
+  color: white;
   border-radius: 0.25rem;
   padding: 0.4rem 0.6rem;
   cursor: pointer;
 }
 .cart-info:hover {
-  background: var(--mainPink);
-  border-color: var(--mainPink);
-  color: var(--mainWhite);
+  background: white;
+  border-color: #202f41;
+  color: #202f41;
 }
 .cart-info:hover .cart-info__icon {
-  color: var(--mainWhite);
+  color: #202f41;
 }
 /* end of info icons */
 /* banner */
@@ -85,8 +85,8 @@ height: 10rem;
 }
 .banner-link {
   font-size: 1.5rem;
-  color: var(--mainBlack);
-  border: 0.2rem solid var(--mainBlack);
+  color: #202f41;
+  border: 0.2rem solid #202f41;
 }
 .banner-link:hover {
   background: white;
@@ -159,7 +159,7 @@ height: 10rem;
   left: -1.7rem;
   width: 100%;
   height: 100%;
-  outline: 0.5rem solid var(--mainYellow);
+  outline: 0.5rem solid #202f41;
   z-index: -1;
   transition: all 1s ease-in-out;
 }
@@ -190,7 +190,7 @@ height: 10rem;
   bottom: 0;
   right: 0;
   padding: 0.75rem;
-  background: var(--mainYellow);
+  background: #202f41;
   border-top-left-radius: 1rem;
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
@@ -199,10 +199,10 @@ height: 10rem;
   transform: translate(0, 0);
 }
 .store-item-icon:hover {
-  color: var(--mainWhite);
+  color: white;
 }
 .store-item-value {
-  color: --mainYellow;
+  color: #202f41;
 }
 /*end of  store items */
 .search-box {
@@ -312,7 +312,7 @@ height: 10rem;
 }
 
 .footer .credit {
-  color: #00c4cc;
+  color: white;
   font-size: 2rem;
   font-weight: lighter;
   padding: 1rem;
