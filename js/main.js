@@ -61,7 +61,13 @@
                 const total = document.querySelector(".cart-total-container");
 
                 cart.insertBefore(cartItem, total);
-                alert("Item added to the cart");
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Product added to the cart',
+                    showConfirmButton: false,
+                    timer: 1900
+                });
                 showTotals();
             }
 
@@ -83,9 +89,9 @@
         }, 0);
         const finalMoney = totalMoney.toFixed(2);
 
-document.getElementById('cart-total').textContent = finalMoney;
-document.querySelector('.item-total').textContent = finalMoney;
-document.getElementById('item-count').textContent = total.length;
+        document.getElementById('cart-total').textContent = finalMoney;
+        document.querySelector('.item-total').textContent = finalMoney;
+        document.getElementById('item-count').textContent = total.length;
 
 
 
