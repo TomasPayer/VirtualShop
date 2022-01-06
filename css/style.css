@@ -127,38 +127,29 @@ height: 10rem;
 #cart-item-price {
   font-size: 0.8rem;
 }
-/* cart item */
+
 /* cart buttons */
-.btn-pink {
-  color: var(--mainPink) !important;
-  border-color: var(--mainPink) !important;
-}
-.btn-black {
-  color: var(--mainBlack) !important;
-  border-color: var(--mainBlack) !important;
-}
-.btn-black:hover {
-  color: var(--mainPink) !important;
-  background: var(--mainBlack) !important;
-}
-.btn-pink:hover {
-  background: var(--mainPink) !important;
-  color: var(--mainBlack) !important;
+.cart-buttons-container {
+  justify-content: center;
 }
 /* end of cart buttons */
 
 /* about */
 .about-img__container {
   position: relative;
+  height: 20rem;
+}
+.about-img__container1{
+  height: 20rem;
 }
 
 .about-img__container::before {
   content: "";
   position: absolute;
-  top: -1.5rem;
-  left: -1.7rem;
-  width: 100%;
-  height: 100%;
+  top: -1rem;
+  left: -1rem;
+  width: 30rem;
+  height: 20rem;
   outline: 0.5rem solid #202f41;
   z-index: -1;
   transition: all 1s ease-in-out;
@@ -168,7 +159,7 @@ height: 10rem;
   left: 0;
 }
 
-/*end of  about */
+/*end of about */
 
 /* store items */
 .store {
@@ -229,11 +220,7 @@ height: 10rem;
 .lightbox-holder {
   position: relative;
 }
-.lightbox-item {
-  min-height: 80vh;
-  background: url("../img/cake-1.jpeg") center/cover fixed no-repeat;
-  border-radius: 0.3rem;
-}
+
 .lightbox-close {
   color: var(--mainPink);
   font-size: 3rem;
@@ -289,7 +276,8 @@ height: 10rem;
 
 .footer .share a:hover {
   background-color: #00c4cc;
-  border-radius: 40px;
+  border-radius: 40%;
+  
 }
 
 .footer .links {
@@ -317,3 +305,8 @@ height: 10rem;
   font-weight: lighter;
   padding: 1rem;
 }
+
+.img-fluid {
+  height: 5rem;
+}
+
