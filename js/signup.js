@@ -32,8 +32,8 @@ form.addEventListener("submit", e => {
   } else {
     Swal.fire(
       'Good job!',
-      'You clicked the button!',
-      'success',
+      'Successful Registration!',
+      'success'
     )
   }
 

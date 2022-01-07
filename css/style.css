@@ -196,11 +196,7 @@ height: 10rem;
 .store-item-value {
   color: #202f41;
 }
-/*end of  store items */
-.search-box {
-  background: var(--mainPink);
-  color: var(--mainBlack);
-}
+
 
 /* ligthbox */
 
@@ -300,6 +296,10 @@ height: 10rem;
 .img-fluid {
   height: 5rem;
 }
+  
+.signup {
+  color: #202f41;
+} 
 
 form {
   background-color: white;
@@ -367,5 +367,15 @@ button:hover {
 }
 
 .regist {
+  color: #202f41;
+}
+
+.goback {
+  color: white;
+  transition: all 1s ease-in-out;
+  font-size: 2.5rem;
+}
+.goback:hover {
+  transform: scale(1.1);
   color: #202f41;
 }
