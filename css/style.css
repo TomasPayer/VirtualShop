@@ -301,3 +301,71 @@ height: 10rem;
   height: 5rem;
 }
 
+form {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  width: 300px;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+.form .group {
+  position: relative;
+  margin: 45px;
+}
+
+input {
+  background: none;
+  color: #202f41;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #202f41;
+}
+
+label {
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease-in-out all;
+  pointer-events: none;
+  color: #202f41;
+}
+
+input:focus~label,
+input:valid~label {
+  top: -14px;
+  font-size: 12px;
+}
+
+button {
+  background: #202f41;
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  padding-bottom: .5rem;
+}
+
+.regist {
+  color: #202f41;
+}
