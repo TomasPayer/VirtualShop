@@ -19,20 +19,21 @@ body {
   color: #202f41;
   background-color:#202f41;
 }
-.navbar-toggler {
-  outline: none !important;
-}
+
 .toggler-icon {
   font-size: 2.5rem;
   color: #202f41;
 }
 .nav-link {
-  color: white;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-.nav-link:hover {
-  color: #202f41;
+  padding: 2rem 1rem;
+  color: #fff;
+  border-radius: var(--border);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem o;
+  gap: 1rem;
 }
 
 .navbar img {
@@ -274,12 +275,6 @@ height: 10rem;
   text-align: center;
 }
 
-.footer .share a:hover {
-  background-color: #00c4cc;
-  border-radius: 40%;
-  
-}
-
 .footer .links {
   display: flex;
   justify-content: center;
@@ -293,10 +288,6 @@ height: 10rem;
   color: #fff;
   border-radius: var(--border);
   font-size: 2rem;
-}
-
-.footer .links a:hover {
-  background: #00c4cc;
 }
 
 .footer .credit {
