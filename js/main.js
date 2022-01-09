@@ -3,91 +3,73 @@ const storeItems = [
     id: 1,
     image: "img/bose.jpg",
     name: "Bose",
-    price: 5,
+    price: 299.99,
+  },
+  {
+    id: 1,
+    image: "img/appletv.jpg",
+    name: "Apple Tv 4k 2021",
+    price: 179,
+  },
+  {
+    id: 1,
+    image: "img/iphone.jpg",
+    name: "iphone 13",
+    price: 1159,
+  },
+  {
+    id: 1,
+    image: "img/macbook.jpg",
+    name: "Macbook Pro",
+    price: 3499,
+  },
+  {
+    id: 1,
+    image: "img/applewatchseries7.webp",
+    name: "Apple Watch Series 7",
+    price: 569,
+  },
+  {
+    id: 1,
+    image: "img/homepodmini.jpg",
+    name: "Home Pod mini",
+    price: 99,
+  },
+  {
+    id: 1,
+    image: "img/ipadpromax.jpg",
+    name: "Ipad Pro Max",
+    price: 1099,
   },
   {
     id: 1,
     image: "img/bose.png",
-    name: "Bose",
-    price: 5,
+    name: "Headphones Bose",
+    price: 129,
   },
   {
     id: 1,
-    image: "img/iphone.jpg",
-    name: "iphone",
-    price: 5,
+    image: "img/ipod.webp",
+    name: "Ipod Classic",
+    price: 452.88,
   },
   {
     id: 1,
-    image: "img/macbook.jpg",
-    name: "Macbook",
-    price: 5,
+    image: "img/googleglass.jpg",
+    name: "Google Glasses",
+    price: 999,
   },
   {
     id: 1,
-    image: "img/iphone.jpg",
-    name: "Iphone",
-    price: 10,
+    image: "img/googlewatch.jpg",
+    name: "Google Watch",
+    price: 329,
   },
   {
     id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 10,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 10,
-  },
-  {
-    id: 1,
-    image: "img/macbook.jpg",
-    name: "Macbook",
-    price: 10,
-  },
-  {
-    id: 1,
-    image: "img/iphone.jpg",
-    name: "Iphone",
-    price: 15.5,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 15,
-  },
-  {
-    id: 1,
-    image: "img/iphone.jpg",
-    name: "Iphone",
-    price: 15,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 15,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 55,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 75,
-  },
-  {
-    id: 1,
-    image: "img/bose.jpg",
-    name: "Bose",
-    price: 95,
+    image: "img/googlewatch.jpg",
+    name: "Google Watch",
+    price: 329,
   },
 ];
 let checkoutCart = [];
@@ -155,14 +137,6 @@ const addEventListenerToIcon = () => {
       let partPath = fullPath.slice(pos);
       const id = event.target.parentElement.parentElement.parentElement.id;
       const item = storeItems[id];
-      // item.img = storeItems[id].image;
-      // let name = storeItems[id].name;
-      // item.name = name;
-      // let price = storeItems[id].price;
-
-      // let finalPrice = price;
-
-      // item.price = finalPrice;
 
       const cartItem = document.createElement("div");
       cartItem.classList.add(
